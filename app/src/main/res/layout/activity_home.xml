@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="1dp"
+        style="@style/mytoolbar"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/omlogo"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+<RelativeLayout
+    android:layout_width="500dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/toolbar">
+    <ImageView
+        android:id="@+id/bell1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/bellbest" />
+
+    <ImageView
+        android:id="@+id/bell12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/bellbest" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/play123"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/bestplay"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?android:selectableItemBackground"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/text"
+            android:foreground="?android:selectableItemBackground"/>
+
+        <ImageView
+            android:id="@+id/shankh"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/shankhbest"
+            />
+
+        <ImageView
+            android:id="@+id/ghanta"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/ghantabest" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/play123"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/next"
+            android:id="@+id/btnNext"
+            android:layout_marginBottom="10dp"
+            android:foreground="?android:selectableItemBackground"
+
+            />
+        <ImageView
+            android:id="@+id/btnPrev"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/btnNext"
+            android:layout_alignParentBottom="true"
+            android:rotation="180"
+            android:layout_marginRight="85dp"
+            android:src="@drawable/next"
+            android:layout_marginBottom="10dp"
+            android:foreground="?android:selectableItemBackground"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:title="Set as Wallpaper"
+        android:id="@+id/hanuman"
+        ></item>
+    <item
+        android:title="Hanuman Wiki"
+        android:id="@+id/hanumanwiki"
+        ></item>
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        ></item>
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="Share"
+
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+
+</menu>

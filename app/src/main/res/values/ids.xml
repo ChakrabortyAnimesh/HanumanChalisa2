@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imagefirst" type="id">image1</item>
+    <item name="imagesecond" type="id">image2</item>
+    <item name="viewPager" type="id" />
+    <item name="viewpager" type="id">view</item>
+    <item name="seekbar" type="id">seek</item>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#f2b91d</item>
+        <item name="colorPrimaryDark">#b8f1860b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mytoolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionOverflowButtonStyle">@android:color/white</item>
+
+    </style>
+</resources>
